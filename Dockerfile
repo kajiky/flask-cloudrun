@@ -9,5 +9,5 @@ COPY . .
 
 EXPOSE 8080
 
-# Use simple Python command instead of Gunicorn
-CMD ["python", "your-actual-filename.py"]
+
+CMD ["python", "flask_test.py"]
